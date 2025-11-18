@@ -1,0 +1,27 @@
+# ----------------------------------------------------------------------
+# Build Artifacts - Common
+# ----------------------------------------------------------------------
+# Object files created by the compiler
+*.o
+ori/
+# Compiled Executables for Assignment 1
+array
+
+# ----------------------------------------------------------------------
+# Submission Artifacts & Temporary Files
+# ----------------------------------------------------------------------
+# Submission Tarball (e.g., 2021310000.tar)
+*.tar
+# Editor backup/swap files (e.g., vim, emacs)
+*~
+*.swp
+*.bak
+# Valgrind or other profiling output
+valgrind-out.txt
+callgrind.*
+
+# ----------------------------------------------------------------------
+# OS/Environment specific
+# ----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
