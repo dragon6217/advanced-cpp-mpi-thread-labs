@@ -31,3 +31,12 @@ git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.c
 cd HW3
 make
 ./thread 4  # Run with 4 threads
+```
+
+## 🧪 Verification Strategy
+
+모든 프로젝트는 엄격한 검증 과정을 거쳤습니다.
+1.  **Correctness:** 제공된 Test Case 및 Reference Output과의 일치 여부 확인.
+2.  **Performance:** 스레드/프로세스 수 증가에 따른 실행 시간 단축(Speedup) 측정.
+3.  **Memory Safety:** `Valgrind`를 이용한 Memory Leak 및 Invalid Access 전수 검사 완료.
+
