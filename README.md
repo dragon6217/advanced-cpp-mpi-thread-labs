@@ -33,7 +33,7 @@ make
 ./thread 4  # Run with 4 threads
 ```
 
-## 🧪 Verification Strategy
+## Verification Strategy
 
 모든 프로젝트는 엄격한 검증 과정을 거쳤습니다.
 1.  **Correctness:** 제공된 Test Case 및 Reference Output과의 일치 여부 확인.
