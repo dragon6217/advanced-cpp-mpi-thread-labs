@@ -4,12 +4,6 @@
 
 이 저장소는 로우 레벨 메모리 관리부터 멀티스레딩, 분산 병렬 처리에 이르는 시스템 프로그래밍의 핵심 주제들을 C++로 구현한 프로젝트 모음입니다. STL 컨테이너를 직접 구현하며 내부 동작 원리를 파악하고, `pthread`/`std::thread`와 `MPI`를 활용하여 성능을 최적화하는 데 중점을 두었습니다.
 
-## Tech Stack & Environment
-* **Language:** C++11/14 (Modern C++), C
-* **Core Libraries:** STL, POSIX Threads (pthread), OpenMPI
-* **Tools:** GCC/G++, Make, Valgrind (Memory Leak Check), GDB
-* **OS:** Linux (Ubuntu 24.04 LTS via WSL2)
-
 ## Projects Overview
 
 | Project | Topic | Key Technical Accomplishments |
@@ -40,3 +34,8 @@ make
 2.  **Performance:** 스레드/프로세스 수 증가에 따른 실행 시간 단축(Speedup) 측정.
 3.  **Memory Safety:** `Valgrind`를 이용한 Memory Leak 및 Invalid Access 전수 검사 완료.
 
+## Tech Stack & Environment
+* **Language:** C++11/14 (Modern C++), C
+* **Core Libraries:** STL, POSIX Threads (pthread), OpenMPI
+* **Tools:** GCC/G++, Make, Valgrind (Memory Leak Check), GDB
+* **OS:** Linux (Ubuntu 24.04 LTS via WSL2)
